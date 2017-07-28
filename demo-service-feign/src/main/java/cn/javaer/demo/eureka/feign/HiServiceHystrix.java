@@ -11,6 +11,6 @@ public class HiServiceHystrix implements HiService
     @Override
     public String sayHiFromClientOne()
     {
-        return "Hi, ERROR";
+        return "Hi, Feign, ERROR";
     }
 }

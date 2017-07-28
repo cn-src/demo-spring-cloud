@@ -25,6 +25,6 @@ public class HelloService
     
     public String hiError()
     {
-        return "hi,sorry,error!";
+        return "hi, ribbon, error";
     }
 }

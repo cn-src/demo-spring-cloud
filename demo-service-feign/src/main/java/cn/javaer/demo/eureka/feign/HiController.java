@@ -16,7 +16,7 @@ public class HiController
         this.hiService = hiService;
     }
     
-    @GetMapping("hi")
+    @GetMapping("call")
     public String sayHi()
     {
         return hiService.sayHiFromClientOne();
