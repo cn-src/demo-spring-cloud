@@ -36,5 +36,6 @@
         <module>demo-eureka-server</module>
         <module>demo-eureka-client</module>
         <module>demo-service-ribbon</module>
+        <module>demo-service-feign</module>
     </modules>
 </project>
