@@ -1,8 +1,8 @@
 # demo-spring-cloud
 spring cloud 学习样例
-[原教程作者:方志朋](http://blog.csdn.net/forezp)
-[原教程地址](http://blog.csdn.net/forezp/article/details/70148833)
-[原教程源码地址](https://github.com/forezp/SpringCloudLearning)
+* [原教程作者:方志朋](http://blog.csdn.net/forezp)
+* [原教程地址](http://blog.csdn.net/forezp/article/details/70148833)
+* [原教程源码地址](https://github.com/forezp/SpringCloudLearning)
 ====
 
 + `demo-eureka-client` 服务提供者(开启多个)
