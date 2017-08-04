@@ -16,9 +16,9 @@ public class HiController
         this.hiService = hiService;
     }
     
-    @GetMapping("/b/call")
+    @GetMapping("/call")
     public String sayHi()
     {
-        return hiService.sayHiFromClientOne()+"::/b/call";
+        return hiService.sayHiFromClientOne()+"::/feign/call";
     }
 }

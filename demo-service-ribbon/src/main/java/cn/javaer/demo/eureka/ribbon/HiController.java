@@ -13,10 +13,10 @@ public class HiController
     @Autowired
     public HiController(final HiService hiService) {this.hiService = hiService;}
     
-    @GetMapping(value = "/a/call")
+    @GetMapping(value = "/call")
     public String call()
     {
-        return hiService.hiService()+"::/a/call";
+        return hiService.hiService()+"::/ribbon/call";
     }
     
 }
