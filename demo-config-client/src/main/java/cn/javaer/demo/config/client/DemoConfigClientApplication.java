@@ -3,7 +3,7 @@ package cn.javaer.demo.config.client;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
@@ -17,8 +17,10 @@ public class DemoConfigClientApplication
     
     @Value("${foo}")
     String foo;
-    @RequestMapping(value = "/hi")
-    public String hi(){
+    
+    @GetMapping("/hi")
+    public String hi()
+    {
         return foo;
     }
 }
