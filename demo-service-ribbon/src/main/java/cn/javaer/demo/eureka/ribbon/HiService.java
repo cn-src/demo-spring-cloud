@@ -6,13 +6,13 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
-public class HelloService
+public class HiService
 {
     
     private final RestTemplate restTemplate;
     
     @Autowired
-    public HelloService(final RestTemplate restTemplate)
+    public HiService(final RestTemplate restTemplate)
     {
         this.restTemplate = restTemplate;
     }

@@ -5,18 +5,18 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController
+public class HiController
 {
     
-    private final HelloService helloService;
+    private final HiService hiService;
     
     @Autowired
-    public HelloController(final HelloService helloService) {this.helloService = helloService;}
+    public HiController(final HiService hiService) {this.hiService = hiService;}
     
-    @GetMapping(value = "/call")
+    @GetMapping(value = "/a/call")
     public String call()
     {
-        return helloService.hiService();
+        return hiService.hiService();
     }
     
 }
