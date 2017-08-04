@@ -46,5 +46,6 @@
         <module>demo-service-feign</module>
         <module>demo-service-zuul</module>
         <module>demo-config-server</module>
+        <module>demo-config-client</module>
     </modules>
 </project>
