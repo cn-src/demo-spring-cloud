@@ -45,5 +45,6 @@
         <module>demo-service-ribbon</module>
         <module>demo-service-feign</module>
         <module>demo-service-zuul</module>
+        <module>demo-config-server</module>
     </modules>
 </project>
