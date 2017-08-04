@@ -31,11 +31,19 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
     <modules>
         <module>demo-eureka-server</module>
         <module>demo-eureka-client</module>
         <module>demo-service-ribbon</module>
         <module>demo-service-feign</module>
+        <module>demo-service-zuul</module>
     </modules>
 </project>
