@@ -16,7 +16,7 @@ public class HiController
     @GetMapping(value = "/a/call")
     public String call()
     {
-        return hiService.hiService();
+        return hiService.hiService()+"::/a/call";
     }
     
 }

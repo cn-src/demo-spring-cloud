@@ -19,6 +19,6 @@ public class HiController
     @GetMapping("/b/call")
     public String sayHi()
     {
-        return hiService.sayHiFromClientOne();
+        return hiService.sayHiFromClientOne()+"::/b/call";
     }
 }
