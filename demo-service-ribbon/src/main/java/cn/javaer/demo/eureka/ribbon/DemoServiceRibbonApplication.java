@@ -14,11 +14,11 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableHystrix
-public class DemoEurekaServiceRibbonApplication
+public class DemoServiceRibbonApplication
 {
     public static void main(String[] args)
     {
-        SpringApplication.run(DemoEurekaServiceRibbonApplication.class, args);
+        SpringApplication.run(DemoServiceRibbonApplication.class, args);
     }
     
     @Bean
